@@ -34,6 +34,7 @@ body::before{
 
 .container{
     overflow: hidden;
+    align-items: center;
 }
 
 .items {
@@ -41,6 +42,6 @@ body::before{
     padding: 0.5em;
     float: left;
     align-items: center;
-    width: 200px;
+    width: 213.5px;
     
   }
