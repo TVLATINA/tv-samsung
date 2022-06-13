@@ -3,12 +3,42 @@
     margin: 0;
 }
 
-.grid-container{
-    padding: 1em;
+body {
+    font-family: sans-serif;
+	background: url(img/fondo.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	justify-content: center;
+	align-items: center;
+    margin: 1.5vw;
+}
+
+body::before{
+	content:"";
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: linear-gradient(135deg,navy,lightblue,navy,purple,pink,purple);
+	opacity: 0.5;
+	z-index: -1;
+}
+
+.iconos {
+    border-radius: 1vw;
+    width: 100%;
+}
+
+.container{
+    overflow: hidden;
 }
 
 .items {
-    margin: 1em;
-    padding: 1em;
+    margin: 0.5em;
+    padding: 0.5em;
     float: left;
+    
   }
